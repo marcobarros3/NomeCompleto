@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Hello, World!");
-Console.WriteLine("digite o seu primeiro nome()");
-Console.WriteLine("digite o seu sobrenome()");
-string=nomecompleto;
+﻿string nome, sobrenome;
+Console.Write("digite o seu primeiro nome:---------:");
+nome=Console.ReadLine();
+
+Console.Write("digite o seu sobrenome:---------:");
+sobrenome=Console.ReadLine();
+
